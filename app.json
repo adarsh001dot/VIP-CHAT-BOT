@@ -1,5 +1,5 @@
 {
-  "name": "ShrutiBots Chat Bot",
+  "name": " VIP Chat Bot",
   "description": "A telegram bot",
   "logo": "https://files.catbox.moe/757sbl.jpg",
   "keywords": [
@@ -11,32 +11,32 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/NoxxOP/NormalChatBot",
+  "repository": "https://github.com/adarsh001dot/Vip-Chat-Bot",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "32296098"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "685a84c2c16b2c82794dea6d1f42475c"
     },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
-      "value": ""
+      "value": "8563029676:AAE7uiukJ-QB4FFuNysK9xsn3JU0hYDPdmo"
     },
     "MONGO_URL": {
       "description": "Get a mongodb url.",
       "required": true,
-      "value": "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION"
+      "value": "mongodb+srv://nikilsaxena843_db_user:3gF2wyT4IjsFt0cY@vipbot.puv6gfk.mongodb.net/?appName=vipbot"
     },
     "OWNER_ID": {
       "description": "User id of the user who will known as owner of the bot.",
       "required": true,
-      "value": "7574330905"
+      "value": "7459756974"
     }
   }
 }
