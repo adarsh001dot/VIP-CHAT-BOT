@@ -1,6 +1,6 @@
 {
-  "name": " VIP Chat Bot",
-  "description": "A telegram bot",
+  "name": "VIPCHATBOT",
+  "description": "A Telegram bot maintained under the @ShrutiBots Community 🤖",
   "logo": "https://files.catbox.moe/757sbl.jpg",
   "keywords": [
     "Chatbot",
@@ -8,18 +8,18 @@
     "python",
     "pyrogram"
   ],
-    "buildpacks": [{
+  "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/adarsh001dot/Vip-Chat-Bot",
+  "repository": "https://github.com/NoxxOP/ChatBot",
   "env": {
     "API_ID": {
-      "description": "Get this value from my.telegram.org/apps.",
+      "description": "Get this value from https://my.telegram.org (API Development Tools)",
       "required": true,
       "value": "32296098"
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org/apps.",
+      "description": "Get this value from https://my.telegram.org (API Development Tools)",
       "required": true,
       "value": "685a84c2c16b2c82794dea6d1f42475c"
     },
@@ -28,15 +28,35 @@
       "required": true,
       "value": "8563029676:AAE7uiukJ-QB4FFuNysK9xsn3JU0hYDPdmo"
     },
+    "STRING_SESSION": {
+      "description": "Fill Here A Pyrogram String Session For Id-Chatbot, Get it from: https://telegram.tools/session-string-generator#pyrogram,user (Optional, skip if you don't want id-chatbot)",
+      "required": false,
+      "value": "BAHszKIAK4T3GjBFWoSncJhuI27dH4JEd7uqRHiJRo-V3cXp2LkeqsKLVoUwUMlbuO76ZaRT5Hjk94kZtgGSuR5SH4NNz_uQXbiIS__JKAhnJidLQumtEGm4TkejuN1a-QOHHcKkDP7DVPE7izRZl2mlKFUuwslXgBUe9IggiCK2N9Hfx811juXjUqENNz2xXQtkX6Scgw0Nx1pp3BzKtNcrs99FmMdQOy0pkREpD5dfTL_pfqfhN17GlYj2ZQyc0FeJxG6Jb2wRbmbueNFCyY94-91Pt2nXqaWmqU6mYbIi620g0l9tb_l6UGglF1qQ4TQfsYXsMdibQtLADu1EBb9zhAQuaAAAAAIBmO3OAA"
+    },
     "MONGO_URL": {
-      "description": "Get a mongodb url.",
+      "description": "Get a MongoDB connection string from https://cloud.mongodb.com",
       "required": true,
       "value": "mongodb+srv://nikilsaxena843_db_user:3gF2wyT4IjsFt0cY@vipbot.puv6gfk.mongodb.net/?appName=vipbot"
     },
     "OWNER_ID": {
-      "description": "User id of the user who will known as owner of the bot.",
+      "description": "Fill Here Your Owner User Id (numeric)",
       "required": true,
       "value": "7459756974"
+    },
+    "OWNER_USERNAME": {
+      "description": "Fill Here Your Telegram Username (without @)",
+      "required": true,
+      "value": "VIP_X_OFFICIAL"
+    },
+    "SUPPORT_GRP": {
+      "description": "Your Telegram Support Group username (without @)",
+      "required": false,
+      "value": "VIP_X_MUSIC"
+    },
+    "UPDATE_CHNL": {
+      "description": "Your Telegram Updates Channel username (without @)",
+      "required": false,
+      "value": "WEBBOT_LAB"
     }
   }
 }
